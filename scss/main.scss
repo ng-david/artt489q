@@ -1,0 +1,42 @@
+@import 'base';
+@import 'vars';
+
+section.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  h1 {
+    font-size: 12rem;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-size: 2rem;
+    opacity: .5;
+    margin-bottom: 1rem;
+    font-weight: normal;
+  }
+  .link-row {
+    margin-top: 8rem;
+    a {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2.6rem;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      text-decoration: none;
+      color: $blue;
+      transition: ease all .1s;
+      &:hover {
+        opacity: .5;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "artt489Q",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "build-scss": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-scss": "nodemon -e scss -x \"npm run build-scss\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng-david/artt489q.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ng-david/artt489q/issues"
+  },
+  "homepage": "https://github.com/ng-david/artt489q#readme",
+  "dependencies": {
+    "node-sass": "^4.9.2",
+    "nodemon": "^1.17.5"
+  }
+}

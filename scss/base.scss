@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+@import 'vars';
+
+html { font-size: 62.5%; }
+
+html {
+  overflow-x: hidden;
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) {
+    font-size: 55%;
+  }
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    font-size: 58%;
+  }
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    font-size: 60%;
+  }
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    font-size: 62.5%;
+  }
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    font-size: 62.5%;
+  }
+}
+
+body {
+  padding: 0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
